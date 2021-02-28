@@ -16,6 +16,6 @@ public class Runner {
 
         shop.getCustomersByCardRange(2221, 7000).forEach((customer) -> {
             System.out.println(customer);
-        });
+        }); // ok
     }
 }
