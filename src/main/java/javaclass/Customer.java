@@ -1,4 +1,4 @@
-package task1;
+package javaclass;
 
 public class Customer {
     private int id;

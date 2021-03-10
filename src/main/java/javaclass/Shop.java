@@ -1,4 +1,4 @@
-package task1;
+package javaclass;
 
 import java.util.ArrayList;
 import java.util.Comparator;
