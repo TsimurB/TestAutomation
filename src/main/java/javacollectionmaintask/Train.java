@@ -1,8 +1,9 @@
-package javacollection;
+package javacollectionmaintask;
 
 
 
-import javacollection.wagon.Wagon;
+import javacollectionmaintask.passenger.Passenger;
+import javacollectionmaintask.wagon.Wagon;
 
 import java.util.Collection;
 import java.util.Comparator;
@@ -10,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Train {
-    private List<Wagon> wagons;
+    private final List<Wagon> wagons;
 
     public Train(List<Wagon> wagons) {
         this.wagons = wagons;
@@ -23,12 +24,12 @@ public class Train {
     public int countNumberOfBags() {
         return wagons.stream().map(Wagon::getPassengers)
                 .flatMap(Collection::stream)
-                .mapToInt(p -> p. getNumberOfBags())
+                .mapToInt(Passenger::getNumberOfBags)
                 .sum();
     }
 
     public List<Wagon> sortWagonByComfort() {
-        return wagons.stream().sorted(Comparator.comparing(wagon -> wagon.getComfortLevel()))
+        return wagons.stream().sorted(Comparator.comparing(Wagon::getComfortLevel))
                 .collect(Collectors.toList());
     }
 

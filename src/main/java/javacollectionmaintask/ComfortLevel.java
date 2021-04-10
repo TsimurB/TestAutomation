@@ -1,4 +1,4 @@
-package javacollection;
+package javacollectionmaintask;
 
 public enum ComfortLevel {
     BUSINESS,

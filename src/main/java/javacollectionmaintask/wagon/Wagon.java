@@ -1,9 +1,9 @@
-package javacollection.wagon;
+package javacollectionmaintask.wagon;
 
 
 
-import javacollection.ComfortLevel;
-import javacollection.passenger.Passenger;
+import javacollectionmaintask.ComfortLevel;
+import javacollectionmaintask.passenger.Passenger;
 
 import java.util.ArrayList;
 import java.util.List;
