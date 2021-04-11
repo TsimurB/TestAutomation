@@ -1,8 +1,8 @@
-package javacollection.wagon;
+package javacollectionmaintask.wagon;
 
 
-import javacollection.ComfortLevel;
-import javacollection.passenger.Passenger;
+import javacollectionmaintask.ComfortLevel;
+import javacollectionmaintask.passenger.Passenger;
 
 public class CommunalCompartment extends Wagon {
     public CommunalCompartment(int maxCapacity) {

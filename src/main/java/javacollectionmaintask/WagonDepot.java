@@ -1,11 +1,11 @@
-package javacollection;
+package javacollectionmaintask;
 
 
-import javacollection.passenger.Passenger;
-import javacollection.wagon.CommonWagon;
-import javacollection.wagon.CommunalCompartment;
-import javacollection.wagon.Compartment;
-import javacollection.wagon.Wagon;
+import javacollectionmaintask.passenger.Passenger;
+import javacollectionmaintask.wagon.CommonWagon;
+import javacollectionmaintask.wagon.CommunalCompartment;
+import javacollectionmaintask.wagon.Compartment;
+import javacollectionmaintask.wagon.Wagon;
 
 import java.util.Arrays;
 

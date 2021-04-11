@@ -1,4 +1,4 @@
-package javacollection.passenger;
+package javacollectionmaintask.passenger;
 
 public class Passenger {
 
