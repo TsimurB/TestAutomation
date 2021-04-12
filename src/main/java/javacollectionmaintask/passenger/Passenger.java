@@ -6,7 +6,7 @@ public class Passenger {
         this.numberOfBags = numberOfBags;
     }
 
-    private int numberOfBags;
+    private final int numberOfBags;
 
     public int getNumberOfBags() {
         return numberOfBags;
