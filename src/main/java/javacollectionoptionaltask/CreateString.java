@@ -1,4 +1,5 @@
 package javacollectionoptionaltask;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,6 +7,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class CreateString {
+
     public static void main(String[] args) {
         Stack<String> stack = new Stack<>();
         try (Scanner scan = new Scanner(new File("src/main/resources/input.txt"));
