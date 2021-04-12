@@ -6,10 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Shop {
-    private List<Customer> customers = new ArrayList();
-
-    public Shop() {
-    }
+    private final List<Customer> customers = new ArrayList<>();
 
     public void inviteCustomers() {
         this.customers.add(new Customer(1111, "Васильев", "Борис", "Борисович", "Минск", 987654321, 1212));
@@ -20,12 +17,9 @@ public class Shop {
         this.customers.add(new Customer(9, "Григорьев", "Сергей ", "Сергеевич", "Могилев", 9666, 987654321));
     }
 
-    public List<Customer> getCustomers() {
-        return this.customers;
-    }
 
     public List<Customer> sortByLastName() {
-        return customers.stream().sorted(Comparator.comparing(customers -> customers.getLastName()))
+        return customers.stream().sorted(Comparator.comparing(Customer::getLastName))
                 .collect(Collectors.toList());
     }
 
