@@ -1,6 +1,5 @@
 package javacollectionmaintask.wagon;
 
-
 import javacollectionmaintask.ComfortLevel;
 import javacollectionmaintask.passenger.Passenger;
 

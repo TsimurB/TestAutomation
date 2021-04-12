@@ -1,7 +1,5 @@
 package javacollectionmaintask;
 
-
-
 import javacollectionmaintask.passenger.Passenger;
 import javacollectionmaintask.wagon.Wagon;
 
